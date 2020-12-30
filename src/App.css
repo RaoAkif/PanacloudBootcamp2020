@@ -1,3 +1,8 @@
+/* body {
+  align-content: center;
+  text-align: center;
+} */
+
 .App {
   text-align: center;
 }
@@ -25,7 +30,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #f8f8f8;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +40,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.productContainer {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+  border-width: 20px;
+  margin: grey 10px;
+}
+
+img {
+  width: 400px;
+}
+
+nav {
+  align-content: left;
+  text-align: center;
+  background-color: #343d4e;
+}
+
+nav a {
+  display: inline-block;
+  padding: 15px;
+  color: white;
+}
+
+.body-container {
+  text-align: center;
+  padding: 1%;
+}
+
+#products-names {
+  color: #282c34;
 }
