@@ -9,23 +9,23 @@ export const actions = {
 };
 
 // The action creators are how you bundle actions with the data required to execute them
-export const archiveTask = id => ({ type: actions.ARCHIVE_TASK, id });
-export const pinTask = id => ({ type: actions.PIN_TASK, id });
+export const archiveTask = (id: any) => ({ type: actions.ARCHIVE_TASK, id });
+export const pinTask = (id: any) => ({ type: actions.PIN_TASK, id });
 
 // All our reducers simply change the state of a single task.
-function taskStateReducer(taskState) {
-  return (state, action) => {
+function taskStateReducer(taskState: any) {
+  return (state: any, action: any) => {
     return {
       ...state,
       tasks: state.tasks.map(
-        task => (task.id === action.id ? { ...task, state: taskState } : task)
+        (task: any) => (task.id === action.id ? { ...task, state: taskState } : task)
       ),
     };
   };
 }
 
 // The reducer describes how the contents of the store change for each action
-export const reducer = (state, action) => {
+export const reducer = (state: any, action: any) => {
   switch (action.type) {
     case actions.ARCHIVE_TASK:
       return taskStateReducer('TASK_ARCHIVED')(state, action);

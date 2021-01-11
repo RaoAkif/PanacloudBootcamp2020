@@ -8,14 +8,14 @@ export default {
   component: Page,
 };
 
-const Template = (args) => <Page {...args} />;
+const Template = (args: any) => <Page {...args} />;
 
-export const LoggedIn = Template.bind({});
+export const LoggedIn: any = Template.bind({});
 LoggedIn.args = {
   ...HeaderStories.LoggedIn.args,
 };
 
-export const LoggedOut = Template.bind({});
+export const LoggedOut: any = Template.bind({});
 LoggedOut.args = {
   ...HeaderStories.LoggedOut.args,
 };

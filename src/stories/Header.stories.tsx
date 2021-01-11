@@ -7,12 +7,12 @@ export default {
   component: Header,
 };
 
-const Template = (args) => <Header {...args} />;
+const Template = (args: any) => <Header {...args} />;
 
-export const LoggedIn = Template.bind({});
+export const LoggedIn: any = Template.bind({});
 LoggedIn.args = {
   user: {},
 };
 
-export const LoggedOut = Template.bind({});
+export const LoggedOut: any = Template.bind({});
 LoggedOut.args = {};

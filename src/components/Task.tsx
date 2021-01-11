@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export default function Task({ task: { id, title, state }, onArchiveTask, onPinTask }) {
+export default function Task({ task: { id, title, state }, onArchiveTask, onPinTask }: any) {
   return (
     <div className={`list-item ${state}`}>
       <label className="checkbox">

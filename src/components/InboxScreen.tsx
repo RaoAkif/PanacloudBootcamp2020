@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 
 import TaskList from './TaskList';
 
-export function PureInboxScreen({ error }) {
+export function PureInboxScreen({ error }: any) {
   if (error) {
     return (
       <div className="page lists-show">
@@ -37,4 +37,4 @@ PureInboxScreen.defaultProps = {
   error: null,
 };
 
-export default connect(({ error }) => ({ error }))(PureInboxScreen);
+export default connect(({ error }: any) => ({ error }))(PureInboxScreen);
