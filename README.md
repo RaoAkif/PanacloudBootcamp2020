@@ -1,25 +1,48 @@
-## Full Stack Serverless Multi-Tenant SaaS Apps and APIs Bootcamp 2020
+<p align="center">
+  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
+    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Gatsby minimal starter
+</h1>
 
-#### Project 0: PWA TypeScript with Offline Push Notifications Capability in TDD, CI/CD GitHub
-[![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/main)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/CodeBitChips/PanacloudBootcamp2020_Project0)
-[Live Demo](https://bootcamp2020project0.netlify.app/)
+## 🚀 Quick start
 
-#### Project 1: Expense Tracker App using React Hooks and Context API
-#### Project 2: COVID-19 Tracker App
-#### Project 3: Shoe Store
-#### Project 4A: Red Queen’s Race with Web Animation API and React Hooks
-#### Project 4B: Tiny Short Animation with React Hooks
-#### Project 5: An Animated React Website which follows the Latest Trends like Animated Illustrations
-#### Project 6: Quiz App
-#### Project 7: React Timer App
-#### Project 8: Space X Client Application
-#### Project 9A: Shopping Basket using React and Redux Toolkit
-#### Project 9B: Diaries App using React and Redux Toolkit
-#### Project 10: Signup Form and Multi-Step Form with Formik, Yup, and Material-UI
-#### Project 11: Task box using Storybook - Publishing it on Bit
-#### Project 12A: Build a Blog site in Gatsby.js and Contentful and Deploy on Netlify
-#### Project 12B: Building Serverless CRUD apps with Netlify Functions and FaunaDB
-#### Project 12C: Building a Serverless JAMStack Todo app with Netlify, Gatsby, GraphQL, and FaunaDB
-#### Project 12D: Create A Bookmarking Application with FaunaDB, Netlify And Gatsby
-#### Project 12E: Virtual Lolly using Gatsby.js, Netlify, FaunaDB, Formik, and Storybook 6
+1.  **Create a Gatsby site.**
+
+    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+
+    ```shell
+    # create a new Gatsby site using the minimal starter
+    npm init gatsby
+    ```
+
+2.  **Start developing.**
+
+    Navigate into your new site’s directory and start it up.
+
+    ```shell
+    cd my-gatsby-site/
+    npm run develop
+    ```
+
+3.  **Open the code and start customizing!**
+
+    Your site is now running at http://localhost:8000!
+
+    Edit `src/pages/index.js` to see your site update in real-time!
+
+4.  **Learn more**
+
+    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+
+    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
