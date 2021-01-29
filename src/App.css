@@ -192,3 +192,8 @@
   stroke-dashoffset: 0;
   transition-delay: 0s;
 }
+
+
+app {
+  align-items: center;
+}
