@@ -1,0 +1,12 @@
+{
+  "name": "graphql-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "RaoAkif <61361037+RaoAkif@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-lambda": "^2.10.0",
+    "faunadb": "^2.11.1",
+    "graphql": "^14.6.0"
+  }
+}
