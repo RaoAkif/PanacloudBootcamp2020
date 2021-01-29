@@ -305,8 +305,6 @@ export default class App extends Component {
     return (
       <div className='app'>
 
-        <AppHeader />
-
         <div className='todo-list'>
           <h2>
             Create todo
