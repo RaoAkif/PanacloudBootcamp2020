@@ -12,7 +12,7 @@ export const shoesData = {
 "air-jordan-1-zoom-racer-blue": {
   "name": "RACER BLUE",
   "img":
-  "https://cdn.shopify.com/s/files/1/0143/1552/0054/products/854-4552-_3_2400x.jpg?v=1594815557"
+  "https://cdn.shopify.com/s/files/1/0143/1552/0054/products/881-6303_2_2400x.jpg?v=1604299790"
 },
 "air-jordan-3-valor-blue1": {
   "name": "POWER - MENE",
@@ -22,7 +22,7 @@ export const shoesData = {
 "jordan-mars-270-london2": {
   "name": "JORDAN MARS 270 LONDON",
   "img":
-    "https://cdn.shopify.com/s/files/1/0143/1552/0054/products/854-4552-_3_2400x.jpg?v=1594815557"
+    "https://cdn.shopify.com/s/files/1/0143/1552/0054/products/881-2318-_2_2400x.jpg?v=1605703556"
 },
 "air-jordan-1-zoom-racer-blue3": {
   "name": "BATA BROWN CHEETAH",
@@ -42,6 +42,6 @@ export const shoesData = {
 "jordan-mars-270-london3": {
   "name": "JORDAN MARS 270 LONDON",
   "img":
-    "https://cdn.shopify.com/s/files/1/0143/1552/0054/products/854-4552-_3_2400x.jpg?v=1594815557"
+    "https://cdn.shopify.com/s/files/1/0143/1552/0054/products/881-6303_2_2400x.jpg?v=1604299790"
 },
 }
