@@ -3,7 +3,7 @@ import { Theme, makeStyles, createStyles } from "@material-ui/core/styles"
 import ButtonBase from "@material-ui/core/ButtonBase"
 import Typography from "@material-ui/core/Typography"
 import { useSelector } from "react-redux"
-import { ProductItem } from "../global"
+import { ProductItem } from "../../global"
 import { store, add } from "../store"
 
 const useStyles = makeStyles((theme: Theme) =>

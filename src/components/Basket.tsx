@@ -13,7 +13,7 @@ import {
 } from "@material-ui/core"
 import DeleteIcon from "@material-ui/icons/Delete"
 import { useSelector } from "react-redux"
-import { ProductItem } from "../global"
+import { ProductItem } from "../../global"
 import { store, remove } from "../store"
 
 const useStyles = makeStyles((theme: Theme) =>
