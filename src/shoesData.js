@@ -2,7 +2,7 @@ export const shoesData = {
   "air-jordan-3-valor-blue": {
   "name": "VALOUR BLUE",
   "img":
-  "https://cdn.shopify.com/s/files/1/0143/1552/0054/products/828-2030-_3_2400x.jpg?v=1591259658"
+  "https://cdn.shopify.com/s/files/1/0143/1552/0054/products/851-4006-b_2400x.jpg?v=1606728276"
 },
 "jordan-mars-270-london": {
   "name": "JORDAN MARS 270 LONDON",
@@ -17,7 +17,7 @@ export const shoesData = {
 "air-jordan-3-valor-blue1": {
   "name": "POWER - MENE",
   "img":
-    "https://cdn.shopify.com/s/files/1/0143/1552/0054/products/828-2030-_3_2400x.jpg?v=1591259658"
+    "https://cdn.shopify.com/s/files/1/0143/1552/0054/products/851-4006-b_2400x.jpg?v=1606728276"
 },
 "jordan-mars-270-london2": {
   "name": "JORDAN MARS 270 LONDON",
@@ -37,7 +37,7 @@ export const shoesData = {
 "air-jordan-3-valor-blue2": {
   "name": "POWER - MENE",
   "img":
-    "https://cdn.shopify.com/s/files/1/0143/1552/0054/products/828-2030-_3_2400x.jpg?v=1591259658"
+    "https://cdn.shopify.com/s/files/1/0143/1552/0054/products/854-4535-_2_2400x.jpg?v=1609149917"
 },
 "jordan-mars-270-london3": {
   "name": "JORDAN MARS 270 LONDON",
