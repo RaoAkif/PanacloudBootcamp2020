@@ -1,15 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './app/App';
-import reportWebVitals from './reportWebVitals';
-import { setupServer } from './services/mirage/server';
-import { Provider } from 'react-redux';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import { makeServer } from "./server/inedx";
+import { Provider } from "react-redux";
 import store from './store';
-
-if (process.env.NODE_ENV === 'development') {
-  setupServer();
-}
+import App from './App'
+makeServer();
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,7 +13,5 @@ ReactDOM.render(
       <App />
     </Provider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
-
-reportWebVitals();

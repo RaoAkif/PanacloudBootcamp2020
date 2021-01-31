@@ -1,32 +1,86 @@
-import { createSlice } from '@reduxjs/toolkit';
+import {createSlice, PayloadAction, createAsyncThunk} from '@reduxjs/toolkit';
+import http from "../../services/api";
+import {User} from "../../interface/index";
 
-interface AuthState {
-  token: string | null;
-  isAuthenticated: boolean;
+export const loginUser = createAsyncThunk(
+    'auth/login',
+    async (credential: {email: string, password: string}) => {
+      const response = await http.post('/api/auth/login', credential);
+      return response
+    }
+)
+
+export const signUpUser = createAsyncThunk(
+    'auth/signup',
+    async (credential: {username: string; email: string; password: string}) => {
+      const response = await http.post('/api/auth/signup', credential);
+      return response
+    }
+)
+
+interface authState {
+    authenticated: boolean;
+    token : string | null;
+    loading : boolean;
+    user: User | null;
 }
 
-const initialState: AuthState = {
-  token: null,
-  isAuthenticated: false,
-};
+const authSlice = createSlice({
+    name: "auth",
+    initialState: {
+        authenticated: false,
+        token : "",
+        loading: false,
+        user: null
+    } as authState,
+    reducers : {
+        start_loading : (state) => {
+            state.loading = true;
+        },
+        logout : (state) => {
+            return {
+                ...state,
+                authenticated: false,
+                token : "",
+                loading: false,
+                user: null
+            }
+        }
+    },
+    extraReducers: (builder) => {
+        builder.addCase(loginUser.pending, (state, action: PayloadAction<any>) => {
+            state.loading = true;
+        }).addCase(loginUser.fulfilled, (state, action : PayloadAction<any>) => {
+            if(action.payload){
+                const {token, user} = action.payload;
+                return {
+                    ...state,
+                    token: token,
+                    user: user,
+                    authenticated: true,
+                    loading : false
+                }
+            }
+            else{
+                return {
+                    ...state,
+                    loading : false
+                }
+            }
+        }).addCase(signUpUser.pending, (state, action: PayloadAction<any>) => {
+            state.loading = true;
+        }).addCase(signUpUser.fulfilled, (state, action : PayloadAction<any>) => {
+            const {token, user} = action.payload;
+            return {
+                ...state,
+                token: token,
+                user: user,
+                authenticated: true,
+                loading : false
+            }
+        })
+    }
+})
 
-const auth = createSlice({
-  name: 'auth',
-  initialState,
-  reducers: {
-    saveToken(state, { payload }) {
-      if (payload) {
-        state.token = payload;
-      }
-    },
-    clearToken(state) {
-      state.token = null;
-    },
-    setAuthState(state, { payload }) {
-      state.isAuthenticated = payload;
-    },
-  },
-});
-
-export const { saveToken, clearToken, setAuthState } = auth.actions;
-export default auth.reducer;
+export const {logout} = authSlice.actions; 
+export default authSlice.reducer;

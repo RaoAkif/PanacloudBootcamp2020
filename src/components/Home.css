@@ -1,0 +1,9 @@
+.diaryCards {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  padding: 30px;
+  align-items: center;
+}
