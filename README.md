@@ -12,10 +12,10 @@
 
 #### Project 0: PWA TypeScript with Offline Push Notifications Capability in TDD, CI/CD GitHub [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/main)
 
-#### Project 0: PWA TypeScript with Offline Push Notifications Capability in TDD, CI/CD GitHub [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/main)
 
+![Project 0: PWA TypeScript with Offline Push Notifications Capability in TDD, CI/CD GitHub](https://bootcamp2020project0.netlify.app/)
 
-![#### Project 0: PWA TypeScript with Offline Push Notifications Capability in TDD, CI/CD GitHub](https://bootcamp2020project0.netlify.app/)
+[Project 0: PWA TypeScript with Offline Push Notifications Capability in TDD, CI/CD GitHub](https://bootcamp2020project0.netlify.app/)
 
 
 #### Project 1: Expense Tracker App using React Hooks and Context API
