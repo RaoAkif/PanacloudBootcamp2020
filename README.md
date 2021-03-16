@@ -40,16 +40,31 @@
 
 [Project 7b: React Timer App](http://bootcamping2020project7b.surge.sh/) [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/007B_ReactTimerAppTypeScriptTDD)
 
-[Project 0: PWA TypeScript with Offline Push Notifications Capability in TDD, CI/CD GitHub](http://bootcamping2020project1.surge.sh/) [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/main)
+[Project 8: Space X Client Application](http://bootcamping2020project8.surge.sh/) [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/008_SpaceXClientApplication_ApplloClient-3%26SpaceX-API)
 
 
-[Project 0: PWA TypeScript with Offline Push Notifications Capability in TDD, CI/CD GitHub](hhttp://bootcamping2020project1.surge.sh/) [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/main)
+[Project 9A: Shopping Basket using React and Redux Toolkit](http://bootcamping2020project9a.surge.sh/) [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/009A_ShoppingBasketwithReduxToolkit)
 
 
-[Project 0: PWA TypeScript with Offline Push Notifications Capability in TDD, CI/CD GitHub](http://bootcamping2020project1.surge.sh/) [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/main)
+[Project 9B: Diaries App using React and Redux Toolkit](http://bootcamping2020project9.surge.sh/) [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/009B_DiariesAppUsingReactReduxToolkitTypeScript)
+
+[Project 10: Signup Form and Multi-Step Form with Formik, Yup, and Material-UI](http://bootcamping2020project10.surge.sh/) [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/010_MultiStepSignupFormWithFormikYupMaterialUITypeScript)
+
+[Project 11: Task box using Storybook - Publishing it on Bit](http://bootcamping2020project11.surge.sh/) [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/011_TaskboxReactComponentTypeScriptStorybookBit)
+
+[Project 12A: Build a Blog site in Gatsby.js and Contentful and Deploy on Netlify](https://bootcamping2020project12a.netlify.app/) [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/012A_GatsbyTypeScriptPWAGraphQLContentfulNetlifyBlog)
+
+[Project 12B: Building Serverless CRUD apps with Netlify Functions and FaunaDB](https://bootcamping2020project12b.netlify.app/) [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/012B_ServerlessCRUDwithNetlifyFunctions%26FaunaDB)
+
+[Project 12C: Building a Serverless JAMStack Todo app with Netlify, Gatsby, GraphQL, and FaunaDB](https://bootcamping2020project12c.netlify.app/) [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/012C_ServerlessJAMStackTodoAppNetlifyGatsbyGraphQLFaunaDB)
+
+[Project 12D: Create A Bookmarking Application with FaunaDB, Netlify And Gatsby](https://bootcamping2020project12d.netlify.app/) [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/012D_BookmarkingApplicationWithFaunaDBNetlify)
+
+[Project 12E: Virtual Lolly using Gatsby.js, Netlify, FaunaDB, Formik, and Storybook 6](https://bootcamping2020project12e.netlify.app/) [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/012E_Virtual-LollyGatsbyNetlifyFaunaDB)
+
+
 
 #### Project 1: Expense Tracker App using React Hooks and Context API
-
 #### Project 2: COVID-19 Tracker App
 #### Project 3: Shoe Store
 #### Project 4A: Red Queen’s Race with Web Animation API and React Hooks
