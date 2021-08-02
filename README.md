@@ -48,7 +48,7 @@
 [Project 9A: Shopping Basket using React and Redux Toolkit](http://bootcamping2020project9a.surge.sh/) [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/009A_ShoppingBasketwithReduxToolkit)
 
 
-[Project 9B: Diaries App using React and Redux Toolkit](http://bootcamping2020project9.surge.sh/) [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/009B_DiariesAppUsingReactReduxToolkitTypeScript)
+[Project 9B: Diaries App using React and Redux Toolkit](http://bootcamping2020project9b.surge.sh/) [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/009B_DiariesAppUsingReactReduxToolkitTypeScript)
 
 [Project 10: Signup Form and Multi-Step Form with Formik, Yup, and Material-UI](http://bootcamping2020project10.surge.sh/) [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/010_MultiStepSignupFormWithFormikYupMaterialUITypeScript)
 
@@ -58,8 +58,8 @@
 
 [Project 12B: Building Serverless CRUD apps with Netlify Functions and FaunaDB](https://bootcamping2020project12b.netlify.app/) [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/012B_ServerlessCRUDwithNetlifyFunctions%26FaunaDB)
 
-[Project 12C: Building a Serverless JAMStack Todo app with Netlify, Gatsby, GraphQL, and FaunaDB](https://bootcamping2020project12c.netlify.app/) [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/012C_ServerlessJAMStackTodoAppNetlifyGatsbyGraphQLFaunaDB)
+[Project 12C: Building a Serverless JAMStack Todo app with Netlify, Gatsby, GraphQL, and FaunaDB](https://bootcamp2020project12c.netlify.app/) [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/012C_ServerlessJAMStackTodoAppNetlifyGatsbyGraphQLFaunaDB)
 
-[Project 12D: Create A Bookmarking Application with FaunaDB, Netlify And Gatsby](https://bootcamping2020project12d.netlify.app/) [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/012D_BookmarkingApplicationWithFaunaDBNetlify)
+[Project 12D: Create A Bookmarking Application with FaunaDB, Netlify And Gatsby](https://bootcamp2020project12d.netlify.app/) [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/012D_BookmarkingApplicationWithFaunaDBNetlify)
 
-[Project 12E: Virtual Lolly using Gatsby.js, Netlify, FaunaDB, Formik, and Storybook 6](https://bootcamping2020project12e.netlify.app/) [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/012E_Virtual-LollyGatsbyNetlifyFaunaDB)
+[Project 12E: Virtual Lolly using Gatsby.js, Netlify, FaunaDB, Formik, and Storybook 6](https://bootcamp2020project12e.netlify.app/) [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/RaoAkif/PanacloudBootcamp2020/tree/012E_Virtual-LollyGatsbyNetlifyFaunaDB)
